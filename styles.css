@@ -8,6 +8,13 @@ h2 {
     color: #e63946;
 }
 
+.content {
+    background-color: #1d3557;
+    padding: 10px;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
 .header {
     color: #a8dadc;
     background-color: #457b9d;
@@ -18,7 +25,9 @@ h2 {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 15px;
-    margin: -2%;
+    margin-top: -2%;
+    margin-left: -2%;
+    margin-right: -2%;
 }
 
 .nav {
