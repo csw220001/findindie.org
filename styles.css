@@ -1,24 +1,24 @@
 body {
     text-align: center;
-    color: #1d3557;
-    background-color: #f7fbf6;
+    color: #4ea9ff;
+    background-color: #CDB4DB;
     background-image: url(images/Karamela\ Tile\ 1.png);
 }
 
 h2 {
-    color: #e63946;
+    color: #ff81af;
 }
 
 .content {
-    background-color: #1d3557;
+    background-color: #FFC8DD;
     padding: 10px;
     margin-left: -2%;
     margin-right: -2%;
 }
 
 .header {
-    color: #a8dadc;
-    background-color: #457b9d;
+    color: #4ea9ff;
+    background-color: #a2d2ff;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
