@@ -1,19 +1,84 @@
-body {
-    text-align: center;
-    color: #4ea9ff;
-    background-color: #CDB4DB;
-    background-image: url(images/Karamela\ Tile\ 1.png);
+/* alexandria-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alexandria';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alexandria-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-h2 {
-    color: #ff81af;
+/* almendra-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Almendra SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/almendra-sc-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {font-size: 16px;}
+
+body {
+  text-align: center;
+  color: #4ea9ff;
+  background-color: #CDB4DB;
+  background-image: url(images/Karamela\ Tile\ 1.png);
+  font-family: 'Alexandria', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Almendra SC', serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Alexandria', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 2.49em;
+}
+
+h2,
+.text-size-h2 { 
+    font-size: 2.07em;
+    color: #ff81af; }
+
+h3,
+.text-size-h3 { font-size: 1.73em; }
+
+h4,
+.text-size-h4 { font-size: 1.44em; }
+
+h5,
+.text-size-h5 { font-size: 1.2em; }
+
+.text-caption { font-size: 0.83em; }
+
+small,
+.text-small {
+  font-size: 0.69em;
 }
 
 .content {
     background-color: #FFC8DD;
+    border-radius: 6px;
     padding: 10px;
-    margin-left: -2%;
-    margin-right: -2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
 }
 
 .header {
@@ -22,10 +87,10 @@ h2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 15px;
+    padding-top: 2.5%;
     margin-top: -2%;
     margin-left: -2%;
     margin-right: -2%;
