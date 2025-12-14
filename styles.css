@@ -147,3 +147,13 @@ small,
     height: 100px;
     align-content: center;
 }
+
+.header a {
+  color: #4ea9ff;
+  text-decoration: none;
+}
+
+.header a:visited {
+  color: #4ea9ff;
+  text-decoration: none;
+}
