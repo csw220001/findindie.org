@@ -21,9 +21,9 @@ html {font-size: 16px;}
 
 body {
   text-align: center;
-  color: #4ea9ff;
+  color: #ff81af;
   background-color: #CDB4DB;
-  background-image: url(images/Karamela\ Tile\ 1.png);
+  background-image: linear-gradient(rgba(78, 169, 255, 0.25),rgba(78, 169, 255, 0.25)), url(images/Karamela\ Tile\ 1.png);
   font-family: 'Alexandria', sans-serif;
   font-weight: false;
   line-height: 1.65;
@@ -146,6 +146,33 @@ small,
     color: #FFC8DD;
     height: 100px;
     align-content: center;
+}
+
+.search {
+  height: 30px;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  border-radius: 6px;
+  color: #FFC8DD;
+  background-color: #ff81af;
+  border-color: #CDB4DB;
+}
+
+.form form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  gap: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 30px;
+}
+
+.form form p {
+  margin: 0;
+  padding: 0;
 }
 
 .header a {
