@@ -115,9 +115,8 @@ small,
 .featured {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px;
+    grid-template-rows: 300px;
     grid-auto-columns: 1fr;
-    gap: 10px;
     overflow: scroll;
     background-color: #CDB4DB;
     align-items: center;
@@ -126,7 +125,6 @@ small,
 .featured div {
     background-color: #ff81af;
     color: #FFC8DD;
-    height: 100px;
     align-content: center;
 }
 
@@ -170,6 +168,17 @@ small,
   padding-bottom: 30px;
 }
 
+.form form .button {
+  color: #4ea9ff;
+  background-color: #a2d2ff;
+}
+
+.form form .text {
+  background-color: #ff81af;
+  color: #FFC8DD;
+  border-radius: 4px;
+}
+
 .form form p {
   margin: 0;
   padding: 0;
@@ -183,4 +192,46 @@ small,
 .header a:visited {
   color: #4ea9ff;
   text-decoration: none;
+}
+
+.featured a {
+  background-color: #ff81af;
+  color: #FFC8DD;
+  height: 280px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.featured a:visited {
+  background-color: #ff81af;
+  color: #FFC8DD;
+  text-decoration: none;
+}
+
+.featured h3 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.random a {
+  background-color: #ff81af;
+  color: #FFC8DD;
+  height: 280px;
+  text-decoration: none;
+}
+
+.random a:visited {
+  background-color: #ff81af;
+  color: #FFC8DD;
+  text-decoration: none;
+}
+
+.random h3 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
